@@ -25,6 +25,7 @@ import { styled } from "@mui/material/styles";
 const RootContainer = styled("div")({
   padding: "16px",
   maxWidth: "100%",
+  overflowX: "auto"
 });
 
 const TableContainerStyled = styled(TableContainer)({
