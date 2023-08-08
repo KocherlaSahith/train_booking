@@ -121,7 +121,7 @@ function App() {
       const response = await axios.get(
         "https://jsonplaceholder.typicode.com/posts"
       );
-      setTrains(response.data.slice(0, 15)); // Display only the first 100 rows
+      setTrains(response.data.slice(0, 13)); // Display only the first 100 rows
     } catch (error) {
       console.error("Error fetching data:", error);
     }
